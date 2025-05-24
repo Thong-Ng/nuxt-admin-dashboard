@@ -1,4 +1,3 @@
-```md
 # Nuxt Admin Dashboard
 
 A modern, responsive Admin Dashboard built with [Nuxt.js](https://nuxt.com/). This project serves as a starter template or full-featured admin panel for web applications, with dynamic routing, authentication, API integration, and modular design.
