@@ -2,7 +2,7 @@ export default defineNuxtPlugin((nuxtApp) => {
     const { token } = useAuth();
   
     const useAPI = $fetch.create({
-      baseURL: 'http://localhost:4000/api',
+      baseURL: 'http://nuxt-admin-dashboard-two.vercel.app/api',
       onRequest({ request, options, error }) {
         if (token.value) {
           options.headers.set('Authorization', token.value)
