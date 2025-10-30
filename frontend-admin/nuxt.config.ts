@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     'vue-sonner/nuxt',
   ],
   auth: {
-    baseURL: 'http://nuxt-admin-dashboard-two.vercel.app/api/',
+    baseURL: 'https://nuxt-admin-dashboard-two.vercel.app/api/',
     provider: {
       type: 'local',
       pages: {
