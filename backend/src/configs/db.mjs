@@ -7,6 +7,10 @@ const pool = mysql.createPool({
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
   database: process.env.DB_NAME,
+  port: 28003,
+  ssl:{
+   rejectUnauthorized: true, 
+  },
   waitForConnections: true, // whether the pool should wait for connections to become available if the connection limit is reached
   connectionLimit: 10, // max number of connections
   maxIdle: 10, // max idle connections, the default value is the same as `connectionLimit`
