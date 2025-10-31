@@ -10,7 +10,7 @@
     </DrawerTrigger>
     <DrawerContent>
       <div class="mx-auto max-w-sm w-full">
-        <ThemeCustomize class="p-4" />
+        <!-- <ThemeCustomize class="p-4" /> -->
       </div>
     </DrawerContent>
   </Drawer>

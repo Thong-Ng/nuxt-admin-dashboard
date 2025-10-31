@@ -110,7 +110,7 @@ function handleLegendItemClick(d: BulletLegendItemInterface, i: number) {
         v-if="showXAxis"
         type="x"
         :tick-format="xFormatter ?? ((v: number) => data[v]?.[index])"
-        :tick-values="[...Array(data.length).keys()]"
+       
         :grid-line="false"
         :tick-line="false"
         tick-text-color="#B2B2B3"

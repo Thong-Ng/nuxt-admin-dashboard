@@ -40,12 +40,12 @@ function handleLogout() {
           </SidebarMenuButton>
         </DropdownMenuTrigger>
         <DropdownMenuContent
-          class="min-w-56 w-[--radix-dropdown-menu-trigger-width] rounded-lg border-[#E0DDD2] bg-[#FFFDF6]"
+          class="min-w-56 w-[--radix-dropdown-menu-trigger-width] rounded-lg border-[#E0DDD2] light:bg-[#FFFDF6] dark:bg-[#0C2B4E]"
           :side="isMobile ? 'bottom' : 'bottom'"
           align="end"
         >
           <DropdownMenuGroup>
-            <DropdownMenuItem as-child class="focus:bg-[#F1ECE4]">
+            <DropdownMenuItem as-child class="focus:bg-[#F1ECE4] dark:hover:text-black">
               <NuxtLink to="/settings" @click="setOpenMobile(false)">
                 <Icon name="i-lucide-settings" />
                 Settings
@@ -53,7 +53,7 @@ function handleLogout() {
             </DropdownMenuItem>
           </DropdownMenuGroup>
           <DropdownMenuSeparator />
-          <DropdownMenuItem @click="handleLogout" class="focus:bg-[#F1ECE4]">
+          <DropdownMenuItem @click="handleLogout" class="focus:bg-[#F1ECE4] dark:hover:text-black">
             <Icon name="i-lucide-log-out" />
             Log out
           </DropdownMenuItem>

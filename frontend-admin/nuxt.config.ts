@@ -71,6 +71,10 @@ export default defineNuxtConfig({
       './lib',
     ],
   },
-
+  app: {
+    head: {
+      title: 'Admin Dashboard',
+    }
+  },  
   compatibilityDate: '2024-12-14',
 })

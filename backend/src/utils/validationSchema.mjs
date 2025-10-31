@@ -166,28 +166,28 @@ export const createBookingValidationSchema = {
       errorMessage: "court_id cannot be empty",
     },
   },
-  start_time: {
-    format: {
-      options: {
-        strict: true,
-      },
-      errorMessage: "start_time must be in format YYYY-MM-DD HH:mm:ss",
-    },
-    notEmpty: {
-      errorMessage: "start_time cannot be empty",
-    },
-  },
-  end_time: {
-    format: {
-      options: {
-        strict: true,
-      },
-      errorMessage: "start_time must be in format YYYY-MM-DD HH:mm:ss",
-    },
-    notEmpty: {
-      errorMessage: "end_time cannot be empty",
-    },
-  },
+  // start_time: {
+  //   format: {
+  //     options: {
+  //       strict: true,
+  //     },
+  //     errorMessage: "start_time must be in format YYYY-MM-DD HH:mm:ss",
+  //   },
+  //   notEmpty: {
+  //     errorMessage: "start_time cannot be empty",
+  //   },
+  // },
+  // end_time: {
+  //   format: {
+  //     options: {
+  //       strict: true,
+  //     },
+  //     errorMessage: "start_time must be in format YYYY-MM-DD HH:mm:ss",
+  //   },
+  //   notEmpty: {
+  //     errorMessage: "end_time cannot be empty",
+  //   },
+  // },
   user_id: {
     isInt: {
       errorMessage: "user_id must be an integer",

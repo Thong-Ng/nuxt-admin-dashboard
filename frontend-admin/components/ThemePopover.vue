@@ -9,7 +9,7 @@
       </Button>
     </PopoverTrigger>
     <PopoverContent class="w-92" align="end">
-      <ThemeCustomize />
+      <!-- <ThemeCustomize /> -->
     </PopoverContent>
   </Popover>
 </template>

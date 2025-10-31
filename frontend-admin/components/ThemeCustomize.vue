@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 import { themes } from '@/lib/registry/themes'
 
 const { theme, radius, setTheme, setRadius } = useCustomize()
@@ -136,4 +136,4 @@ const colorMode = useColorMode()
 
 <style scoped>
 
-</style>
+</style> -->
